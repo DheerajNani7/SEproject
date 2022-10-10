@@ -55,7 +55,7 @@ export function News() {
         <div>
         
         </div>
-        <button onClick={() => navigate(-1)}>Go Back</button>
+       
       </div>
     </>
   )
