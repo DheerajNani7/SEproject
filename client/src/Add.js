@@ -21,7 +21,7 @@ export class Add extends React.Component {
 
         event.preventDefault(); // prevent default behaviour
         //Constructing URL to send to the server.
-        const url = `http://localhost:9000/addserverrouter/${this.state.firstNumber}/and/${this.state.secondNumber}`
+        const url = `http://3.85.122.95:9000/addserverrouter/${this.state.firstNumber}/and/${this.state.secondNumber}`
         fetch(url)
             .then((result) => result.json())
             .then(result => {
