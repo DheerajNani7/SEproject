@@ -1,6 +1,7 @@
 import React from 'react';
 import {Add} from './Add.js';
 import {Home} from './Home.js';
+import {News} from './News.js';
 export class MS extends React.Component {
     render(){
     return (
@@ -24,7 +25,7 @@ export class MS extends React.Component {
         </div>
        <div className='button'>
       
-       <a href="/News">Click here for Trendy Newz</a>
+       <News/>
        </div>
        <div>
             <p>
